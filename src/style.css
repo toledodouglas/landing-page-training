@@ -129,7 +129,7 @@
     display: flex;
     gap: 10rem;
     margin: 1.25rem 25rem 1.25rem 1.25rem;
-    padding: 5rem 5rem;
+    padding: 5rem 0;
     height: 600px;
     border-radius: 25px;
     justify-content: center;
@@ -169,7 +169,7 @@
     display: flex;
     gap: 10rem;
     margin: 1.25rem 1.25rem 1.25rem 25rem;
-    padding: 5rem 5rem;
+    padding: 5rem 0;
     height: 600px;
     border-radius: 25px;
     justify-content: center;
@@ -185,7 +185,7 @@
     display: flex;
     gap: 10rem;
     margin: 1.25rem 25rem 1.25rem 1.25rem;
-    padding: 5rem 5rem;
+    padding: 5rem 0;
     height: 600px;
     border-radius: 25px;
     justify-content:center;
@@ -201,6 +201,50 @@
     width: 100%;
     height: 100vh;
 }
-
-
-
+.o-benefits-section{
+    margin: 5rem 0;
+}
+.m-benefits-texts{
+    display: flex;
+    margin-bottom: 10rem;
+    padding: 4rem 2.5rem;
+    align-items: start;
+    gap: 6rem;
+}
+.a-benefits-title{
+    font-size: 64px;
+    font-weight: 300;
+    color: var(--text1);
+}
+.a-benefits-text{
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--text1);
+}
+.o-benefits-content-section{
+    display: flex;
+    gap: 2rem;
+    margin: 0 2.5rem;
+}
+.m-benefits-column{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.5rem 4rem;
+    border-left: var(--divider1) 1px solid;
+}
+.a-benefits-content-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--text1);
+}
+.a-benefits-content-subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--text1);
+}
+.a-benefits-content-text{
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--text1);
+}
